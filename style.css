@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eee;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+:root {
+  --background-color: #f5f1eb;
+  --primary-color: #3e2411;
+  --secondary-color: #db9f75;
+  --accent-color: #122d34;
+  --highlight-color: #545748;
+  --text-color: #2f3a30;
+  --button-color: #694012;
+}
+
+section {
+  background-color: wheat;
+  width: 420px;
+  padding: 2rem;
+  min-height: 150px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px var(--primary-color) inset;
+}
+
+#input {
+  width: 60%;
+  padding: 5px 10px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid transparent;
+  color: #3e2411;
+  font-size: 1rem;
+  transition: 1s;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 5px;
+}
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.input > * {
+  width: 100%;
+}
+button {
+  padding: 6px 10px;
+  font-size: 1rem;
+  display: block;
+  width: 20%;
+  margin: 10px auto;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--button-color);
+  color: var(--background-color);
+  font-weight: bold;
+}
+
+#Parent {
+  text-align: center;
+  color: var(--text-color);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 0.9rem;
+  line-height: 20px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
